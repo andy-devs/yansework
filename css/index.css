@@ -1,0 +1,6 @@
+html {
+	font-family: 'Stolzl';
+}
+body {
+	background-color: var(--dark-grey-background);
+}
