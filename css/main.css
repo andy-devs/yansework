@@ -1,9 +1,15 @@
 /* All Colors */
 :root {
-	--dark-grey-background: #262626;
+	--dark-grey-background: #171717;
 	--grey-text: #aaa6b5;
+	--grey: #898593;
+	--dark-grey: #353942;
+	--lighter-dark-grey: #292c33;
+	--light-grey: #ffffff;
+	--light-grey-opacity: rgba(255, 255, 255, 0.2);
 	--grey-back: #282d39;
 	--dark-purple: #3455de;
+	--lighter-purple: #2a43aa;
 	--gradient-first: #4285f4;
 	--gradient-second: #7768d5;
 	--gradient-secondary-first: #236cfc;
@@ -15,6 +21,13 @@
 * {
 	margin: 0;
 	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol {
+	list-style: none;
 }
 /* Stolzl Font */
 @font-face {
