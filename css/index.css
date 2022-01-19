@@ -1,5 +1,5 @@
 html {
-	font-family: 'Stolzl';
+	font-family: 'Stolzl', sans-serif;
 }
 body {
 	background-color: var(--dark-grey-background);
