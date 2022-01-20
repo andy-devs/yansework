@@ -4,6 +4,7 @@
 	--grey-text: #aaa6b5;
 	--grey: #898593;
 	--dark-grey: #353942;
+	--greyish-blue: #1b2028;
 	--lighter-dark-grey: #292c33;
 	--light-grey: #ffffff;
 	--light-grey-opacity: rgba(255, 255, 255, 0.2);
@@ -18,9 +19,21 @@
 	--green: #75c690;
 	--red: #ff7440;
 }
+body::-webkit-scrollbar {
+	width: 12px; /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+	background: var(--dark-grey-background); /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+	background-color: var(--dark-grey); /* color of the scroll thumb */
+	border-radius: 20px; /* roundness of the scroll thumb */
+	border: 3px solid var(--dark-grey-background); /* creates padding around scroll thumb */
+}
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 a {
 	text-decoration: none;
